@@ -55,3 +55,32 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.blured{
+  filter: blur(8px);
+}
+.logo{
+  margin: 5px;
+  width: 1.5em;
+}
+.shadow-1{
+  text-shadow: 1px 1px 1px #000;
+}
+
+.fancy-border{
+  border-top: 1px #FFF solid;
+  border-bottom: 1px #FFF solid;
+}
+
+.inline{
+  display: flex;
+  margin: 0;
+}
+
+.inline li{
+  padding: 5px;
+}
+
+a{
+  color: white;
+}

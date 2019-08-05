@@ -9,28 +9,20 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!--Stylesheets and page icon-->
+      <script src="https://kit.fontawesome.com/1224b1528a.js"></script>
       <link rel="stylesheet" type="text/css" href="css/materialize.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="shorcut icon" type="image/png" href="taco-pado.ico">
     </head>
 
     <body>
-      <style type="text/css">
-        .blured{
-          filter: blur(8px);
-        }
-        .logo{
-          margin: 5px;
-          width: 1.5em;
-        }
-        .shadow-1{
-          text-shadow: 1px 1px 1px #000;
-        }
-      </style>
+      <!--navbar-->
       <nav class="red">
         <div class="nav-wrapper">
           <a href="#" class="brand-logo center"><img src="taco-pado-logo.png" class="logo"></a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="left hide-on-med-and-down">
             <li><a href="sass.html">Sass</a></li>
             <li><a href="#reviews">Opiniones</a></li>
@@ -43,6 +35,7 @@
         <li><a href="#reviews">Opiniones</a></li>
         <li><a href="#">#</a></li>
       </ul>
+      <!--Parallax Jumbotron-->
       <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
           <div class="container">
@@ -57,16 +50,25 @@
         </div>
         <div class="parallax blured"><img src="https://i.imgur.com/9ndhytI.jpg" alt="Unsplashed background img 1"></div>
       </div>
+      <!--Reviews Iframe-->
       <div id="reviews" class="scrollspy">
-        <iframe src='https://www.sociablekit.com/app/embed/index.php?embed_id=26989' frameborder='0' width='100%' height='1000'></iframe>
+        <iframe src='https://www.sociablekit.com/app/embed/index.php?embed_id=26989' frameborder='0' width='100%' height='600'></iframe>
       </div>
-      <footer class="page-footer teal">
-        <div class="container">
-          </div>
-        </div>
+      <!--Footer-->
+      <footer class="page-footer red">
         <div class="footer-copyright">
-          <div class="container">
-          Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+          <div class="row fancy-border">
+            <ul class="inline">
+              <li>
+                <a href="https://www.facebook.com/tacostacopado/" target="_blank"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="https://api.whatsapp.com/send?phone=5493813159115" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/tacostacopado/" target="_blank"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
           </div>
         </div>
       </footer>
