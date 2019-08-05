@@ -78,9 +78,15 @@ footer.page-footer {
 }
 
 .inline li{
-  padding: 5px;
+  padding: 0.5em 1em;
+  font-size: 1.5em;
 }
 
 a{
   color: white;
+}
+
+.card:hover{
+  box-shadow: 1px 1px 10px #000;
+  transition: 0.5s;
 }

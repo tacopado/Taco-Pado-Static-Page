@@ -19,19 +19,21 @@
 
     <body>
       <!--navbar-->
-      <nav class="red">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo center"><img src="taco-pado-logo.png" class="logo"></a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="#reviews">Opiniones</a></li>
-            <li><a href="#">#</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div class="navbar-fixed">
+        <nav class="red">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo center"><img src="taco-pado-logo.png" class="logo"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+              <li><a href="#productos">Productos</a></li>
+              <li><a href="#reviews">Opiniones</a></li>
+              <li><a href="#">#</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
+        <li><a href="#productos">Productos</a></li>
         <li><a href="#reviews">Opiniones</a></li>
         <li><a href="#">#</a></li>
       </ul>
@@ -44,11 +46,61 @@
               <h5 class="header col s12 light shadow-1">Los mejores tacos de Tucumán</h5>
             </div>
             <div class="row center">
-              <a href="http://bit.ly/2T9h2Nu" id="download-button" class="btn-large waves-effect waves-light red">Pedir Ahora</a>
+              <a href="http://bit.ly/2T9h2Nu" target="_blank" id="download-button" class="btn-large waves-effect waves-light red">Pedir Ahora</a>
             </div>
           </div>
         </div>
         <div class="parallax blured"><img src="https://i.imgur.com/9ndhytI.jpg" alt="Unsplashed background img 1"></div>
+      </div>
+      <!--Productos-->
+      <div class="container" id="productos">
+        <div class="row">
+          <div class="col s4">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/sample-1.jpg">
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s4">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/sample-1.jpg">
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s4">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/sample-1.jpg">
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!--Reviews Iframe-->
       <div id="reviews" class="scrollspy">
@@ -60,7 +112,7 @@
           <div class="row fancy-border">
             <ul class="inline">
               <li>
-                <a href="https://www.facebook.com/tacostacopado/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/tacostacopado/" target="_blank"><i class="fab fa-facebook-f"></i></a>
               </li>
               <li>
                 <a href="https://api.whatsapp.com/send?phone=5493813159115" target="_blank"><i class="fab fa-whatsapp"></i></a>
