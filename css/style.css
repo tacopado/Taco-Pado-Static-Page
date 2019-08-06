@@ -6,6 +6,12 @@
  * Made By MaterializeCSS.com
  */
 
+
+@font-face {
+  font-family: 'mexican-tequila';
+  src: local(../font/mexican-tequila.ttf);
+}
+
 nav ul a,
 nav .brand-logo {
   color: white;
@@ -89,4 +95,8 @@ a{
 .card:hover{
   box-shadow: 1px 1px 10px #000;
   transition: 0.5s;
+}
+
+.mexican-title{
+  font-family: mexican-tequila;
 }
