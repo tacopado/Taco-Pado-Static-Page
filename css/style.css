@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'mexican-tequila';
-  src: local(../font/mexican-tequila.ttf);
+  src: url(../font/mexican-tequila.ttf);
 }
 
 nav ul a,
@@ -41,7 +41,7 @@ p {
     top: 40%;
   }
   #index-banner .section {
-    top: 10%;
+    top: 20%;
   }
 }
 
