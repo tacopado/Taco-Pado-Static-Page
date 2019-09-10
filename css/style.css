@@ -118,3 +118,8 @@ a{
 .mexican-title{
   font-family: mexican-tequila;
 }
+
+.titulo-combo{
+  font-weight: bold !important;
+  text-transform: uppercase;
+}

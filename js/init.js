@@ -4,7 +4,8 @@
     $('.sidenav').sidenav();
     $('.parallax').parallax();
     $('.carousel.carousel-slider').carousel({
-	    fullWidth: true
+	    fullWidth: true,
+	    indicators: true
 	  });
     $('.scrollspy').scrollSpy();
   }); // end of document ready
