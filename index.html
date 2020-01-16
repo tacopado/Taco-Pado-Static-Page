@@ -82,50 +82,26 @@
       <!--Productos-->
       <div class="container scrollspy" id="combos">
         <h3 class="mexican-title red-text">Combos</h3>
-        <div class="preloader-wrapper big active">
-          <div class="spinner-layer spinner-blue">
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div><div class="gap-patch">
-              <div class="circle"></div>
-            </div><div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-
-          <div class="spinner-layer spinner-red">
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div><div class="gap-patch">
-              <div class="circle"></div>
-            </div><div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-
-          <div class="spinner-layer spinner-yellow">
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div><div class="gap-patch">
-              <div class="circle"></div>
-            </div><div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-
-          <div class="spinner-layer spinner-green">
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div><div class="gap-patch">
-              <div class="circle"></div>
-            </div><div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-        </div>
-        <!-- <ul class="combo-cards">
+        <ul class="combo-cards">
           <li>
-            <div class="card hoverable col s4">
+            <div class="card hoverable col s3">
+              <div class="card-image">
+                <img src="https://i.imgur.com/SkNpsnh.jpg">
+                <span class="card-title shadow-1 titulo-combo">Para mí</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light green btn-large">$200</a>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>🍖 1 Tacos de carne +</li>
+                  <li>🍗 2 Tacos de pollo +</li>
+                  <li>🥣 1 salsa a elección</li>
+                  <li><br></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card hoverable col s3">
               <div class="card-image">
                 <img src="https://i.imgur.com/SkNpsnh.jpg">
                 <span class="card-title shadow-1 titulo-combo">Copado</span>
@@ -142,7 +118,7 @@
             </div>
           </li>
           <li>
-            <div class="card hoverable col s4">
+            <div class="card hoverable col s3">
               <div class="card-image">
                 <img src="https://i.imgur.com/sFHVB2t.jpg">
                 <span class="card-title shadow-1 titulo-combo">Taco'nTodo</span></span>
@@ -159,7 +135,7 @@
             </div>   
           </li>
           <li>
-            <div class="card hoverable col s4">
+            <div class="card hoverable col s3">
               <div class="card-image">
                 <img src="https://i.imgur.com/yNdSC63.jpg">
                 <span class="card-title shadow-1 titulo-combo">Chido</span>
@@ -176,26 +152,44 @@
             </div>
           </li>
         </ul>
-        <ul class="combo-cards">
+        <ul class="combo-cards" id="mix">
           <li>
-            <div class="card hoverable col s4">
+            <div class="card hoverable col s3">
               <div class="card-image">
-                <img src="https://semantic-ui.com/images/wireframe/white-image.png">
-                <span class="card-title shadow-1 titulo-combo">Chido Mix</span></span>
-                <a class="btn-floating halfway-fab waves-effect waves-light green btn-large">$570</a>
+                <img src="https://i.imgur.com/SkNpsnh.jpg">
+                <span class="card-title shadow-1 titulo-combo">Para mí MIX</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light green btn-large">$200</a>
               </div>
               <div class="card-content">
                 <ul>
-                  <li>🍖 4 Tacos de carne +</li>
-                  <li>🍗 4 Tacos de pollo +</li>
-                  <li>🧀 4 Quesadillas +</li>
-                  <li>🥣 2 salsas a elección</li>
+                  <li>🍖 1 Tacos de carne +</li>
+                  <li>🍗 1 Tacos de pollo +</li>
+                  <li>🧀 1 Quesadillas +</li>
+                  <li>🥣 1 salsa a elección</li>
+                  <li><br></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card hoverable col s3">
+              <div class="card-image">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png">
+                <span class="card-title shadow-1 titulo-combo">Copado MIX</span></span>
+                <a class="btn-floating halfway-fab waves-effect waves-light green btn-large">$320</a>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>🍖 2 Tacos de carne +</li>
+                  <li>🍗 2 Tacos de pollo +</li>
+                  <li>🧀 2 Quesadillas +</li>
+                  <li>🥣 1 salsa a elección</li>
                 </ul>
               </div>
             </div>   
           </li>
           <li>
-            <div class="card hoverable col s4">
+            <div class="card hoverable col s3">
               <div class="card-image">
                 <img src="https://semantic-ui.com/images/wireframe/white-image.png">
                 <span class="card-title shadow-1 titulo-combo">Taco'nTodo MIX</span></span>
@@ -212,26 +206,112 @@
             </div>   
           </li>
           <li>
-            <div class="card hoverable col s4">
+            <div class="card hoverable col s3">
               <div class="card-image">
                 <img src="https://semantic-ui.com/images/wireframe/white-image.png">
-                <span class="card-title shadow-1 titulo-combo">Copado Mix</span></span>
+                <span class="card-title shadow-1 titulo-combo">Chido MIX</span></span>
+                <a class="btn-floating halfway-fab waves-effect waves-light green btn-large">$570</a>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>🍖 4 Tacos de carne +</li>
+                  <li>🍗 4 Tacos de pollo +</li>
+                  <li>🧀 4 Quesadillas +</li>
+                  <li>🥣 2 salsas a elección</li>
+                </ul>
+              </div>
+            </div>   
+          </li>
+        </ul>
+        <ul class="combo-cards" id="variadito">
+          <li>
+            <div class="card hoverable col s3">
+              <div class="card-image">
+                <img src="https://i.imgur.com/SkNpsnh.jpg">
+                <span class="card-title shadow-1 titulo-combo">Para mí VARIADITO</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light green btn-large">$200</a>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>🍖 1 Tacos de carne +</li>
+                  <li>🍗 1 Tacos de pollo +</li>
+                  <li>🐷 1 Tacos de cerdo +</li>
+                  <li>🥣 1 salsa a elección</li>
+                  <li><br></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card hoverable col s3">
+              <div class="card-image">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png">
+                <span class="card-title shadow-1 titulo-combo">Copado VARIADITO</span></span>
                 <a class="btn-floating halfway-fab waves-effect waves-light green btn-large">$320</a>
               </div>
               <div class="card-content">
                 <ul>
                   <li>🍖 2 Tacos de carne +</li>
                   <li>🍗 2 Tacos de pollo +</li>
-                  <li>🧀 2 Quesadillas +</li>
+                  <li>🐷 2 Tacos de cerdo +</li>
                   <li>🥣 1 salsa a elección</li>
                 </ul>
               </div>
             </div>   
           </li>
-        </ul>
-        <ul class="combo-cards">
           <li>
-            <div class="card hoverable col s4">
+            <div class="card hoverable col s3">
+              <div class="card-image">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png">
+                <span class="card-title shadow-1 titulo-combo">Taco'nTodo VARIADITO</span></span>
+                <a class="btn-floating halfway-fab waves-effect waves-light green btn-large">$420</a>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>🍖 3 Tacos de carne +</li>
+                  <li>🍗 3 Tacos de pollo +</li>
+                  <li>🐷 3 Tacos de cerdo +</li>
+                  <li>🥣 2 salsas a elección</li>
+                </ul>
+              </div>
+            </div>   
+          </li>
+          <li>
+            <div class="card hoverable col s3">
+              <div class="card-image">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png">
+                <span class="card-title shadow-1 titulo-combo">Chido VARIADITO</span></span>
+                <a class="btn-floating halfway-fab waves-effect waves-light green btn-large">$570</a>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>🍖 4 Tacos de carne +</li>
+                  <li>🍗 4 Tacos de pollo +</li>
+                  <li>🐷 4 Tacos de cerdo +</li>
+                  <li>🥣 2 salsas a elección</li>
+                </ul>
+              </div>
+            </div>   
+          </li>
+        </ul>
+        <ul class="combo-cards" id="quesadillas">
+          <li>
+            <div class="card hoverable col s3">
+              <div class="card-image">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png">
+                <span class="card-title shadow-1 titulo-combo">Quesadilla x3</span></span>
+                <a class="btn-floating halfway-fab waves-effect waves-light green btn-large">$200</a>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>🧀 3 Quesadillas +</li>
+                  <li>🥣 1 salsa a elección</li>
+                </ul>
+              </div>
+            </div>   
+          </li>
+          <li>
+            <div class="card hoverable col s3">
               <div class="card-image">
                 <img src="https://semantic-ui.com/images/wireframe/white-image.png">
                 <span class="card-title shadow-1 titulo-combo">Quesadilla x6</span></span>
@@ -240,14 +320,13 @@
               <div class="card-content">
                 <ul>
                   <li>🧀 6 Quesadillas +</li>
-                  <li>🥘 1 agregado a elección +</li>
                   <li>🥣 1 salsa a elección</li>
                 </ul>
               </div>
             </div>   
           </li>
           <li>
-            <div class="card hoverable col s4">
+            <div class="card hoverable col s3">
               <div class="card-image">
                 <img src="https://semantic-ui.com/images/wireframe/white-image.png">
                 <span class="card-title shadow-1 titulo-combo">Quesadilla x9</span></span>
@@ -256,14 +335,28 @@
               <div class="card-content">
                 <ul>
                   <li>🧀 9 Quesadillas +</li>
-                  <li>🥘 1 agregado a elección +</li>
                   <li>🥣 2 salsa a elección</li>
                 </ul>
               </div>
             </div>   
           </li>
+          <li>
+            <div class="card hoverable col s3">
+              <div class="card-image">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png">
+                <span class="card-title shadow-1 titulo-combo">Veggie</span></span>
+                <a class="btn-floating halfway-fab waves-effect waves-light green btn-large">$250</a>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>🧀 Tacos de verduras +</li>
+                  <li>🥣 1 salsa a elección</li>
+                </ul>
+              </div>
+            </div>   
+          </li>
         </ul>
-        <h3 class="mexican-title red-text">Salsa</h3>
+        <!-- <h3 class="mexican-title red-text">Salsa</h3>
         <div class="carousel carousel-slider center">
           <div class="carousel-item red white-text" href="#one!">
             <h2>Mayonesa de Apio</h2>
@@ -297,8 +390,8 @@
               <h2>Guacamole</h2>
             </div>
           </div>
-        </div> -->
-      </div>
+        </div>
+      </div> -->
       <!--Taco Pado Eventos-->
       <div class="carousel carousel-slider scrollspy" id="eventos">
         <div class="carousel-fixed-item center">
