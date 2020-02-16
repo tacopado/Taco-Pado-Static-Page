@@ -26,7 +26,7 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="left hide-on-med-and-down">
               <li><a href="#inicio">Inicio</a></li>
-              <li><a href="#acerca">Acerca de</a></li>
+              <li><a href="#horario">Horario</a></li>
               <li><a href="#combos">Combos</a></li>
               <li><a href="#eventos">Eventos</a></li>
               <!--<<li><a href="#reviews">Opiniones</a></li>-->
@@ -36,7 +36,7 @@
       </div>
       <ul class="sidenav" id="mobile-demo">
         <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#acerca">Acerca de</a></li>
+        <li><a href="#horario">Horario</a></li>
         <li><a href="#combos">Combos</a></li>
         <li><a href="#eventos">Eventos</a></li>
         <!--<li><a href="#reviews">Opiniones</a></li>-->
@@ -50,17 +50,19 @@
               <h5 class="header col s12 light shadow-1">Los mejores tacos de Tucumán</h5>
             </div>
             <div class="row center">
-              <a href="http://bit.ly/2T9h2Nu" target="_blank" id="download-button" class="btn-large waves-effect waves-light red">Pedir Ahora</a>
+              <a href="http://bit.ly/2T9h2Nu" target="_blank" id="download-button" class="btn-large waves-effect waves-light deep-orange">Pedir Ahora</a>
             </div>
           </div>
         </div>
         <div class="parallax blured"><img src="https://i.imgur.com/9ndhytI.jpg" alt="Unsplashed background img 1"></div>
       </div>
-      <!--Acerca de-->
-      <div class="scrollspy blue-grey darken-4" id="acerca">
+      <!--Horario-->
+      <div class="scrollspy blue-grey darken-4" id="horario">
         <div class="container white-text">
           <div class="center">
             <h3 style="margin: 0; padding-top: 15px">Horario</h3>
+            <p>Encontrános de Jueves a Lunes.<br>
+            De 20:30 a 00:30</p>
             <ul class="pagination h3">
               <li class="teal">Lun</li>
               <li class="deep-orange">Mar</li>
@@ -75,13 +77,13 @@
               <div class="col span s6"></div>
               <div class="col s3 left"><span class="left">00:30</span></div>
             </div>
-            <div class="row" style="height: 20px; margin-bottom: 0; padding: 5px">
-              <div class="col s3 deep-orange" style="border-top: 5px #ff5722 solid; position: relative;">
-                <i class="material-icons" style="color: #009688; position: absolute; right: -8px; top: -14px">fiber_manual_record</i>
+            <div class="row horario">
+              <div class="col s3 horario_left">
+                <i class="material-icons">fiber_manual_record</i>
               </div>
-              <div class="col s6" style="border-top: 5px #009688 solid"></div>
-              <div class="col s3" style="border-top: 5px #ff5722 solid; position: relative;">
-                <i class="material-icons" style="color: #009688; position: absolute; left: -8px !important; top: -14px">fiber_manual_record</i>
+              <div class="col s6 horario_middle"></div>
+              <div class="col s3 horario_right">
+                <i class="material-icons">fiber_manual_record</i>
               </div>
             </div>
           </div>
@@ -90,19 +92,43 @@
       <!--Combos-->
       <div class="container scrollspy" id="combos">
         <div class="row">
-          <h3 class="mexican-title red-text">Combos</h3>
-          <div class="row" id="list">
+          <h3 class="mexican-title deep-orange-text">Combos</h3>
+          <div class="row" id="">
             <div class="col s12 m4 hoverable my_card">
               <div class="row">
                 <img src="https://i.imgur.com/SkNpsnh.jpg" class="responsive-img">
                 <div class="my_card_title"><h5>Carne + Pollo</h5></div>
               </div>
-              <div class="row">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-                <ul class="collapsible">
+              <div class="row" style="padding: 1em; padding-top: 0;">
+                <p><b>Relleno de carne</b> (lomo) marinado en salsa inglesa aderezado con finas hiervas y condimentos secos sobre una tortilla de trigo artesanal. <b>Relleno de pollo</b> previamente adobado con mostaza, curcuma, vino blanco, hiervas y condimentos, seguido de verduras frescas y de la mejor calidad en ambos rellenos, sobre una tortilla de trigo artesanal</p>
+                <ul class="collapsible white-text">
                    <li>
-                    <div class="collapsible-header"><i class="material-icons">attach_money</i>Precios</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-header teal"><i class="material-icons">attach_money</i>Precios</div>
+                    <div class="collapsible-body teal darken-3">
+                      <div class="row">
+                        <div class="col s4">X3 Tacos</div>
+                        <div class="col span s4"></div>
+                        <div class="col s4">$200</div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="row">
+                        <div class="col s4">X6 Tacos</div>
+                        <div class="col span s4"></div>
+                        <div class="col s4">$320</div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="row">
+                        <div class="col s4">X9 Tacos</div>
+                        <div class="col span s4"></div>
+                        <div class="col s4">$420</div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="row">
+                        <div class="col s4">X12 Tacos</div>
+                        <div class="col span s4"></div>
+                        <div class="col s4">$570</div>
+                      </div>
+                    </div>
                   </li>
                 </ul> 
               </div>
@@ -113,10 +139,10 @@
                 <div class="my_card_title"><h5>Mix</h5></div>
               </div>
               <div class="row">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-                <ul class="collapsible">
+                <p>Tacos de carne y pollo acompañados de <b>quesadillas</b> hechas con queso fundido, salsa de tomate y albahaca envuelto en una tortilla de trigo artesanal.</p>
+                <ul class="collapsible white-text">
                    <li>
-                    <div class="collapsible-header"><i class="material-icons">attach_money</i>Precios</div>
+                    <div class="collapsible-header teal"><i class="material-icons">attach_money</i>Precios</div>
                     <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                   </li>
                 </ul> 
@@ -128,10 +154,10 @@
                 <div class="my_card_title"><h5>Variadito</h5></div>
               </div>
               <div class="row">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-                <ul class="collapsible">
+                <p>Los Tacos clásicos de carne y pollo acompañados de tacos de <b>Cerdo</b>, siendo éste,  marinado al limon y mostaza aderezado con finas hiervas y acompañando de verduras frescas y salteadas sobre una tortilla de trigo artesanal</p>
+                <ul class="collapsible white-text">
                    <li>
-                    <div class="collapsible-header"><i class="material-icons">attach_money</i>Precios</div>
+                    <div class="collapsible-header teal"><i class="material-icons">attach_money</i>Precios</div>
                     <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                   </li>
                 </ul> 

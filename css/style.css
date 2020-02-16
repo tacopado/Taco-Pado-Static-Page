@@ -79,9 +79,47 @@ a{
   color: white;
 }
 
+#horario{
+  padding: 1.5em;
+}
+
 .card:hover{
   box-shadow: 1px 1px 10px #000;
   transition: 0.5s;
+}
+
+.horario{
+  height: 20px;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.horario .horario_left{
+  border-top: 5px #ff5722 solid;
+  position: relative;
+}
+
+.horario .horario_left i{
+  color: #009688;
+  position: absolute;
+  right: -8px;
+  top: -14px
+}
+
+.horario .horario_middle{
+  border-top: 5px #009688 solid
+}
+
+.horario .horario_right{
+  border-top: 5px #ff5722 solid;
+  position: relative;
+}
+
+.horario .horario_right i{
+  color: #009688;
+  position: absolute;
+  left: -8px;
+  top: -14px;
 }
 
 .mexican-title{
