@@ -28,7 +28,6 @@
               <li><a href="#inicio">Inicio</a></li>
               <li><a href="#horario">Horario</a></li>
               <li><a href="#combos">Combos</a></li>
-              <li><a href="#eventos">Eventos</a></li>
               <!--<<li><a href="#reviews">Opiniones</a></li>-->
             </ul>
           </div>
@@ -38,7 +37,6 @@
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#horario">Horario</a></li>
         <li><a href="#combos">Combos</a></li>
-        <li><a href="#eventos">Eventos</a></li>
         <!--<li><a href="#reviews">Opiniones</a></li>-->
       </ul>
       <!--Parallax Jumbotron-->
@@ -62,7 +60,7 @@
           <div class="center">
             <h3 style="margin: 0; padding-top: 15px">Horario</h3>
             <p>Encontrános de Jueves a Lunes.<br>
-            De 20:30 a 00:30</p>
+            De 20:30 a 23:30</p>
             <ul class="pagination h3">
               <li class="teal">Lun</li>
               <li class="deep-orange">Mar</li>
@@ -75,7 +73,7 @@
             <div class="row">
               <div class="col s3"><span class="right">20:30</span></div>
               <div class="col span s6"></div>
-              <div class="col s3 left"><span class="left">00:30</span></div>
+              <div class="col s3 left"><span class="left">23:30</span></div>
             </div>
             <div class="row horario">
               <div class="col s3 horario_left">
@@ -91,298 +89,158 @@
       </div>
       <!--Combos-->
       <div class="container scrollspy" id="combos">
+        <h3 class="mexican-title deep-orange-text">Combos</h3>
         <div class="row">
-          <h3 class="mexican-title deep-orange-text">Combos</h3>
-          <div class="row" id="">
-            <div class="col s12 m4 hoverable my_card">
-              <div class="row">
-                <img src="https://i.imgur.com/SkNpsnh.jpg" class="responsive-img">
-                <div class="my_card_title"><h5>Carne + Pollo</h5></div>
+          <div class="col s12 m6 l4">
+            <div class="card" id="my_card_2">
+              <div class="card-image">
+                <img src="https://i.imgur.com/0BGnMvS.jpg"></img>
+                <span class="card-title">Carne + Pollo</span>
               </div>
-              <div class="row">
-                <p><b>Relleno de carne</b> (lomo) marinado en salsa inglesa aderezado con finas hiervas y condimentos secos sobre una tortilla de trigo artesanal. <b>Relleno de pollo</b> previamente adobado con mostaza, curcuma, vino blanco, hiervas y condimentos, seguido de verduras frescas y de la mejor calidad en ambos rellenos, sobre una tortilla de trigo artesanal</p>
-                <ul class="collapsible white-text">
-                   <li>
-                    <div class="collapsible-header teal"><i class="material-icons">attach_money</i>Precios</div>
-                    <div class="collapsible-body teal darken-3">
-                      <div class="row">
-                        <div class="col s3">$230</div>
-                        <div class="col s9">2 tacos de pollo ➕ 1 de carne ➕ 1 salsa</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3">$350</div>
-                        <div class="col s9">3 tacos de pollo ➕ 3 de carne ➕ 1 salsa</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3 amber-text">$450</div>
-                        <div class="col s9">5 tacos de pollo ➕ 4 de carne ➕ 2 salsas</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3">$600</div>
-                        <div class="col s9">6 tacos de pollo ➕ 6 de carne ➕ 2 salsas</div>
-                      </div>
-                    </div>
-                  </li>
-                </ul> 
+              <div class="card-content center">
+                <p id="precio"><b>$999.99</b></p>
+                <p class="truncate justify-text">Relleno de carne (lomo) marinado en salsa inglesa aderezado con finas hiervas y condimentos secos sobre una tortilla de trigo artesanal. Relleno de pollo previamente adobado con mostaza, curcuma, vino blanco, hiervas y condimentos, seguido de verduras frescas y de la mejor calidad en ambos rellenos, sobre una tortilla de trigo artesanal.</p>
+                <button class="btn" onclick="leer_mas(this)">Leer más</button>
               </div>
-            </div>
-            <div class="col s12 m4 hoverable my_card">
-              <div class="row">
-                <img src="https://i.imgur.com/SkNpsnh.jpg" class="responsive-img">
-                <div class="my_card_title"><h5>Mix</h5></div>
-              </div>
-              <div class="row">
-                <p>Tacos de carne y pollo acompañados de <b>quesadillas</b> hechas con queso fundido, salsa de tomate y albahaca envuelto en una tortilla de trigo artesanal.</p>
-                <ul class="collapsible white-text">
-                   <li>
-                    <div class="collapsible-header teal"><i class="material-icons">attach_money</i>Precios</div>
-                    <div class="collapsible-body teal darken-3">
-                      <div class="row">
-                        <div class="col s3">$230</div>
-                        <div class="col s9">1 taco de carne➕ 1 de pollo ➕ 1 quesadilla ➕1 salsa</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3">$350</div>
-                        <div class="col s9">2 taco de carne➕ 2 de pollo ➕ 2 quesadilla ➕1 salsa</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3 amber-text">$450</div>
-                        <div class="col s9">3 taco de carne➕ 3 de pollo ➕ 3 quesadilla ➕2 salsas</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3">$600</div>
-                        <div class="col s9">4 taco de carne➕ 4 de pollo ➕ 4 quesadilla ➕2 salsas</div>
-                      </div>
-                    </div>
-                  </li>
-                </ul> 
-              </div>
-            </div>
-            <div class="col s12 m4 hoverable my_card">
-              <div class="row">
-                <img src="https://i.imgur.com/SkNpsnh.jpg" class="responsive-img">
-                <div class="my_card_title"><h5>Variadito</h5></div>
-              </div>
-              <div class="row">
-                <p>Los Tacos clásicos de carne y pollo acompañados de tacos de <b>Cerdo</b>, siendo éste,  marinado al limon y mostaza aderezado con finas hiervas y acompañando de verduras frescas y salteadas sobre una tortilla de trigo artesanal</p>
-                <ul class="collapsible white-text">
-                   <li>
-                    <div class="collapsible-header teal"><i class="material-icons">attach_money</i>Precios</div>
-                    <div class="collapsible-body teal darken-3">
-                      <div class="row">
-                        <div class="col s3">$230</div>
-                        <div class="col s9">1 taco de carne➕ 1 de pollo ➕ 1 de cerdo ➕1 salsa</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3">$350</div>
-                        <div class="col s9">2 taco de carne➕ 2 de pollo ➕ 2 de cerdo ➕1 salsa</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3 amber-text">$450</div>
-                        <div class="col s9">3 taco de carne➕ 3 de pollo ➕ 3 de cerdo ➕2 salsas</div>
-                      </div>
-                    </div>
-                  </li>
-                </ul> 
-              </div>
+              <div class="card-action"><a href="#">Comprar</a></div>
             </div>
           </div>
-          <div class="row" id="">
-            <div class="col s12 m4 hoverable my_card">
-              <div class="row">
-                <img src="https://i.imgur.com/SkNpsnh.jpg" class="responsive-img">
-                <div class="my_card_title"><h5>Vegetariano</h5></div>
+          <div class="col s12 m6 l4">
+            <div class="card" id="my_card_2">
+              <div class="card-image">
+                <img src="https://scontent.fsla1-1.fna.fbcdn.net/v/t1.0-9/94240598_102562791436325_3398810193457315840_n.jpg?_nc_cat=103&_nc_sid=8bfeb9&_nc_ohc=w6UkhXEMiIEAX-aCwYU&_nc_ht=scontent.fsla1-1.fna&oh=5b0b9235341b7122e8a8355e1d218c1c&oe=5F0E4F4D"></img>
+                <span class="card-title">Mix</span>
               </div>
-              <div class="row">
-                <p>Zapallitos, pimientos, cebollas y zanahorias cuidadosamente seleccionadas y salteadas, aderezadas con hiervas y condimentos secos sobre una tortilla de trigo artesanal.</p>
-                <ul class="collapsible white-text">
-                   <li>
-                    <div class="collapsible-header teal"><i class="material-icons">attach_money</i>Precios</div>
-                    <div class="collapsible-body teal darken-3">
-                      <div class="row">
-                        <div class="col s3">$280</div>
-                        <div class="col s9">6 tacos vegetarianos ➕ 1 salsa</div>
-                      </div>
-                    </div>
-                  </li>
-                </ul> 
+              <div class="card-content center">
+                <p id="precio"><b>$999.99</b></p>
+                <p class="truncate justify-text">Tacos de carne y pollo acompañados de quesadillas hechas con queso fundido, salsa de tomate y albahaca envuelto en una tortilla de trigo artesanal.</p>
+                <button class="btn" onclick="leer_mas(this)">Leer más</button>
               </div>
-            </div>
-            <div class="col s12 m4 hoverable my_card">
-              <div class="row">
-                <img src="https://i.imgur.com/SkNpsnh.jpg" class="responsive-img">
-                <div class="my_card_title"><h5>Quesadillas</h5></div>
-              </div>
-              <div class="row">
-                <p>Combo de quesadillas capresse o fugazza.<br>
-                  <b>Fugazza:</b> queso fundido, salsa de tomate y cebolla caramelizada sobre una tortilla de trigo artesanal.<br>
-                  <b>Capresse:</b> hechas con queso fundido, salsa de tomate y albahaca envuelto en una tortilla de trigo artesanal.</p>
-                <ul class="collapsible white-text">
-                   <li>
-                    <div class="collapsible-header teal"><i class="material-icons">attach_money</i>Precios</div>
-                    <div class="collapsible-body teal darken-3">
-                      <div class="row">
-                        <div class="col s3">$230</div>
-                        <div class="col s9">3 quesadilla ➕1 salsa</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3">$300</div>
-                        <div class="col s9">6 quesadilla ➕1 salsa</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3 amber-text">$400</div>
-                        <div class="col s9">9 quesadilla ➕2 salsas</div>
-                      </div>
-                    </div>
-                  </li>
-                </ul> 
-              </div>
-            </div>
-            <div class="col s12 m4 hoverable my_card">
-              <div class="row">
-                <img src="https://i.imgur.com/SkNpsnh.jpg" class="responsive-img">
-                <div class="my_card_title"><h5>Papas</h5></div>
-              </div>
-              <div class="row">
-                <p>Porción de papas fritas<br>  
-                <b>Al verdeo:</b> aderezadas con crema sazonada (sal, pimienta blanca) y verdeo fresco.<br>
-                <b>Papas gratinadas:</b> papas fritas con queso gratinado.<br>
-                <b>Papas con cheddar:</b> papas fritas con queso cheddar gratinado.<br>
-                <b>Papas con huevos revueltos:</b> papas fritas con huevos revueltos, sazonados y apgerados con crema de leche.<br>
-                <b>Papas clasicas:</b> papas seleccionadas frescas fritadas en el momento a servir.</p>
-                <ul class="collapsible white-text">
-                   <li>
-                    <div class="collapsible-header teal"><i class="material-icons">attach_money</i>Precios</div>
-                    <div class="collapsible-body teal darken-3">
-                      <div class="row">
-                        <div class="col s3">$110</div>
-                        <div class="col s9">Clásicas</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3">$130</div>
-                        <div class="col s9">Gratinadas</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3 amber-text">$130</div>
-                        <div class="col s9">Con huevo revuelto</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3">$160</div>
-                        <div class="col s9">Con crema al verdeo</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3">$170</div>
-                        <div class="col s9">Con cheddar</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3">$170</div>
-                        <div class="col s9">Copadas</div>
-                      </div>
-                    </div>
-                  </li>
-                </ul> 
-              </div>
+              <div class="card-action"><a href="#">Comprar</a></div>
             </div>
           </div>
+          <div class="col s12 m6 l4">
+            <div class="card" id="my_card_2">
+              <div class="card-image">
+                <img src="https://scontent.fsla1-1.fna.fbcdn.net/v/t1.0-9/94240598_102562791436325_3398810193457315840_n.jpg?_nc_cat=103&_nc_sid=8bfeb9&_nc_ohc=w6UkhXEMiIEAX-aCwYU&_nc_ht=scontent.fsla1-1.fna&oh=5b0b9235341b7122e8a8355e1d218c1c&oe=5F0E4F4D"></img>
+                <span class="card-title">Variadito</span>
+              </div>
+              <div class="card-content center">
+                <p class="precio"><b>$999.99</b></p>
+                <p class="truncate justify-text">Los Tacos clásicos de carne y pollo acompañados de tacos de Cerdo, siendo éste, marinado al limon y mostaza aderezado con finas hiervas y acompañando de verduras frescas y salteadas sobre una tortilla de trigo artesanal.</p>
+                <div class="btn-container">
+                  <button class="btn" onclick="leer_mas(this)">Leer más</button>
+                </div>
+              </div>
+              <div class="card-action"><a href="#">Comprar</a></div>
+            </div>
+          </div>
+        </div>
+        <!--Segunda fila de menu-->
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <div class="card" id="my_card_2">
+              <div class="card-image">
+                <img src="https://scontent.fsla1-1.fna.fbcdn.net/v/t1.0-9/94240598_102562791436325_3398810193457315840_n.jpg?_nc_cat=103&_nc_sid=8bfeb9&_nc_ohc=w6UkhXEMiIEAX-aCwYU&_nc_ht=scontent.fsla1-1.fna&oh=5b0b9235341b7122e8a8355e1d218c1c&oe=5F0E4F4D"></img>
+                <span class="card-title">Vegetariano</span>
+              </div>
+              <div class="card-content center">
+                <p id="precio"><b>$999.99</b></p>
+                <p class="truncate justify-text">Zapallitos, pimientos, cebollas y zanahorias cuidadosamente seleccionadas y salteadas, aderezadas con hiervas y condimentos secos sobre una tortilla de trigo artesanal.</p>
+                <button class="btn" onclick="leer_mas(this)">Leer más</button>
+              </div>
+              <div class="card-action"><a href="#">Comprar</a></div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card" id="my_card_2">
+              <div class="card-image">
+                <img src="https://imgur.com/s4iJ9yI.jpg"></img>
+                <span class="card-title">Quesadilla</span>
+              </div>
+              <div class="card-content center">
+                <p id="precio"><b>$999.99</b></p>
+                <p class="truncate justify-text">Combo de quesadillas capresse o fugazza.                 Fugazza: queso fundido, salsa de tomate y cebolla caramelizada sobre una tortilla de trigo artesanal. 
+                Capresse: hechas con queso fundido, salsa de tomate y albahaca envuelto en una tortilla de trigo artesanal.</p>
+                <button class="btn" onclick="leer_mas(this)">Leer más</button>
+              </div>
+              <div class="card-action"><a href="#">Comprar</a></div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card" id="my_card_2">
+              <div class="card-image">
+                <img src="https://imgur.com/qMORf1m.jpg"></img>
+                <span class="card-title">Papas</span>
+              </div>
+              <div class="card-content center">
+                <p class="precio"><b>$999.99</b></p>
+                <p class="truncate justify-text">Porción de papas fritas
+                  Al verdeo: aderezadas con crema sazonada (sal, pimienta blanca) y verdeo fresco.
+                  Papas gratinadas: papas fritas con queso gratinado.
+                  Papas con cheddar: papas fritas con queso cheddar gratinado.
+                  Papas con huevos revueltos: papas fritas con huevos revueltos, sazonados y apgerados con crema de leche.
+                  Papas clasicas: papas seleccionadas frescas fritadas en el momento a servir.</p>
+                <div class="btn-container">
+                  <button class="btn" onclick="leer_mas(this)">Leer más</button>
+                </div>
+              </div>
+              <div class="card-action"><a href="#">Comprar</a></div>
+            </div>
+          </div>
+          <!--Segunda fila de menu-->
           <div class="row">
-            <div class="col s12 m4 hoverable my_card">
-              <div class="row">
-                <img src="https://i.imgur.com/SkNpsnh.jpg" class="responsive-img">
-                <div class="my_card_title"><h5>Nachos</h5></div>
-              </div>
-              <div class="row">
-                <p>Receta exclusiva de TacoPado, snacks fritos realizados con una combinacion de harina de maiz y trigo sazonados y aderezados con hiervas finas.<br>
-                Acompañalos con <b>queso cheddar fundido</b> o <b>Guacamole</b> ( pure de palta sazonada de sal pimienta y jugo de limon combinado con brunoise de verduras frescas tomate pimiento y cebolla dando cuerpo y sabor al pure de palta)</p>
-                <ul class="collapsible white-text">
-                   <li>
-                    <div class="collapsible-header teal"><i class="material-icons">attach_money</i>Precios</div>
-                    <div class="collapsible-body teal darken-3">
-                      <div class="row">
-                        <div class="col s3">$120</div>
-                        <div class="col s9">Con salsa picante</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3">$150</div>
-                        <div class="col s9">Con guacamole</div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="row">
-                        <div class="col s3 amber-text">$150</div>
-                        <div class="col s9">Con cheddar</div>
-                      </div>
-                    </div>
-                  </li>
-                </ul> 
+            <div class="col s12 m6 l4">
+              <div class="card" id="my_card_2">
+                <div class="card-image">
+                  <img src="https://imgur.com/DT3KJft.jpg" alt="">
+                  <span class="card-title">Nuggets</span>
+                </div>
+                <div class="card-content center">
+                  <p class="precio"><b>$999.99</b></p>
+                  <p class="truncate justify-text">Trocitos de pollo pasados por tempura y rebozados en cereal de maíz procesado , fritos en aceite de girasol. Puede ir acompañado por diferentes salsas y mayonesas.</p>
+                  <div class="btn-container">
+                    <button class="btn" onclick="leer_mas(this)">Leer más</button>
+                  </div>
+                </div>
+                <div class="card-action"><a href="">Comprar</a></div>
               </div>
             </div>
+            <div class="col s12 m6 l4">
+              <div class="card" id="my_card_2">
+                <div class="card-image">
+                  <img src="https://imgur.com/Ab35MId.jpg" alt="">
+                  <span class="card-title">Burrito</span>
+                </div>
+                <div class="card-content center">
+                  <p class="precio"><b>$999.99</b></p>
+                  <p class="truncate justify-text">Carne de lomo molida cocinada con brunoise de verduras (cebolla y pimientos) y salsa de tomate, envuelto en una tortilla de trigo más grande que la del taco común.</p>
+                  <div class="btn-container">
+                    <button class="btn" onclick="leer_mas(this)">Leer más</button>
+                  </div>
+                </div>
+                <div class="card-action"><a href="">Comprar</a></div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card" id="my_card_2">
+                <div class="card-image">
+                  <img src="https://imgur.com/rYJD9Hh.jpg" alt="">
+                  <span class="card-title">Wok</span>
+                </div>
+                <div class="card-content center">
+                  <p class="precio"><b>$999.99</b></p>
+                  <p class="truncate justify-text">Salteado de verduras (zanahoria, pimientos, cebolla, berenjena, zucchini) y carne ( vacuna, pollo o cerdo) aderezado con salsa de soja y crema de leche , decorado con brotes de girasol.</p>
+                  <div class="btn-container">
+                    <button class="btn" onclick="leer_mas(this)">Leer más</button>
+                  </div>
+                </div>
+                <div class="card-action"><a href="">Comprar</a></div>
+              </div>
+            </div>
           </div>
-        </div>
+        </div>        
       </div>
-        <!-- <h3 class="mexican-title red-text">Salsa</h3>
-        <div class="carousel carousel-slider center">
-          <div class="carousel-item red white-text" href="#one!">
-            <h2>Mayonesa de Apio</h2>
-          </div>
-          <div class="carousel-item amber white-text" href="#two!">
-            <h2>Mayonesa de Perejil</h2>
-          </div>
-          <div class="carousel-item green white-text" href="#three!">
-            <h2>Tomate Picante</h2>
-          </div>
-          <div class="carousel-item blue white-text" href="#four!">
-            <h2>Salteñita</h2>
-          </div>
-        </div>
-        <div>
-          <h3 class="mexican-title red-text">Extras</h3>
-          <div class="carousel carousel-slider center">
-            <div class="carousel-item red white-text" href="#one!">
-              <h2>Frijoles Blancos</h2>
-            </div>
-            <div class="carousel-item amber white-text" href="#two!">
-              <h2>Frijoles Negros</h2>
-            </div>
-            <div class="carousel-item green white-text" href="#three!">
-              <h2>Mayonesa de Morrrón</h2>
-            </div>
-            <div class="carousel-item blue white-text" href="#four!">
-              <h2>+ Salsa Extra</h2>
-            </div>
-            <div class="carousel-item purple white-text" href="#five!">
-              <h2>Guacamole</h2>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!--Taco Pado Eventos-->
-      <div class="carousel carousel-slider scrollspy" id="eventos">
-        <div class="carousel-fixed-item center">
-          <h1 class="white-text shadow-1">Taco Pado Eventos</h1>
-          <h5 class="white-text shadow-1">Consultá por nuestro servicio de catering para tu fiesta.</h5>
-          <a href="http://wa.me/5493813159115?text=Hola,+Taco+Pado.+Me+pasan+info+sobre+el+servicio+de+catering+para+eventos" class="btn waves-effect green white-text darken-text-2"><i class="fab fa-whatsapp"></i> Consultar</a>
-        </div>
-        <a class="carousel-item" href="#one!"><img src="https://imgur.com/vP23ruN.png"></a>
-        <a class="carousel-item" href="#two!"><img src="https://imgur.com/W5t1N0d.png"></a>
-        <a class="carousel-item" href="#three!"><img src="https://imgur.com/1DwFAOO.png"></a>
-        <a class="carousel-item" href="#four!"><img src="https://imgur.com/67Xn3oz.png"></a>
-      </div>
-      <!--Reviews Iframe-->
       <!--Footer-->
       <footer class="page-footer red">
         <div class="footer-copyright">
@@ -404,5 +262,6 @@
       <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script src="js/init.js"></script>
       <script src="js/materialize.js"></script>
+      <script src="js/asd.js"></script>
     </body>
   </html>

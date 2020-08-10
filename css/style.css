@@ -122,6 +122,11 @@ a{
   top: -14px;
 }
 
+.justify-text{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .mexican-title{
   font-family: mexican-tequila;
 }
@@ -129,6 +134,10 @@ a{
 .titulo-combo{
   font-weight: bold !important;
   text-transform: uppercase;
+}
+
+.truncate_non {
+  white-space: normal !important;
 }
 
 .my_card{
@@ -159,6 +168,10 @@ a{
 }
 #list div:nth-child(3) {
   animation-delay: 2s;
+}
+
+#text{
+  display: none;
 }
 
 .pagination li{
