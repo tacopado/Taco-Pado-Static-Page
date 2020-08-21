@@ -88,6 +88,10 @@ a{
   transition: 0.5s;
 }
 
+.card-title{
+  font-weight: normal !important;
+}
+
 .horario{
   height: 20px;
   margin-bottom: 0;
